@@ -29,27 +29,26 @@ background: #FFFFFF;
 .color:hover{
        color: #27732a;
 }
-.helpcenterBtn{
-    background-color: #4CAF50;
-    color: whitesmoke !important; 
-    padding: 17px 18px;
-    text-decoration: none;
-    font-weight: 600;
-    width: 182;
-height: 50px;
-margin-top: 89px;
-left: 1178px;
-border-radius: 5.95px;
 
-}
 .links{
 font-weight: 500;
 font-style: Medium;
 font-size: 17.16px;
 line-height: 100%;
 letter-spacing: 0%;
-
 }
+.btn-success {
+      background-color: #198754 !important;
+      border-color: #198754 !important;
+      color: white !important;
+      text-decoration: none !important;
+    }
+
+
+
+
+
+
 /* Hero section */
 .hero {
   display: flex;
@@ -92,13 +91,12 @@ letter-spacing: 0%;
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  transition: background 0.3s ease;
+  transition: background 0.4s ease;
 }
-
-.btn:hover {
-  background-color: #2e2d2d;
-}
-
+ .btn:hover{
+            background-color: #1a1a1a;
+ }
+  
 .hero-image img {
   max-width: 100%;
   height: auto;
